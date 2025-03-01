@@ -16,7 +16,16 @@ const addTask = (name) => {
   return task;
 };
 
+const deleteTask = (id) => {
+  const index = tasks.findIndex(task => task.id === id);
+  if (index !== -1) {
+    tasks.splice(index, 1);
+    return true;
+  }
+  return false;
+};
 
-module.exports = { getAllTasks, addTask };
+
+module.exports = { getAllTasks, addTask,deleteTask };
 
 

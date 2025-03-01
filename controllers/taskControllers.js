@@ -13,6 +13,13 @@ exports.getTasks = (req, res) => {
     res.status(201).json(task);
   };
   
+  exports.deleteTask = (req, res) => {
+    const taskId = parseInt(req.params.id);
+    if (TaskModel.deleteTask(taskId)) {
+      return res.status(204).send();
+    }
+    res.status(404).json({ error: 'Task not found' });
+  };
 
 
 
