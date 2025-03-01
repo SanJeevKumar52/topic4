@@ -17,6 +17,6 @@ const addTask = (name) => {
 };
 
 
-module.exports = { getAllTasks };
+module.exports = { getAllTasks, addTask };
 
 
