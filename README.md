@@ -22,8 +22,5 @@ README.md       # Project documentation
 2. npm install
 3. npm start
 
-###
-Method   Endpoint      Eescription         Body
-GET     /api/tasks     Fetch all tasks     None
-POST    /api/tasks     Create a new task   { "name": "Learn MVC" }
-DELETE  /api/tasks/:id Delete a task by ID None
+![image](https://github.com/user-attachments/assets/5288134a-9c31-470c-ad4e-4713c136dbaf)
+
