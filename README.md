@@ -1,21 +1,5 @@
-Task Manager API (Node.js + Express)
-A simple RESTful API for managing tasks, built using Node.js and Express.js following the MVC architecture.
-Features
- Create a new task
- Retrieve all tasks
- Delete a task
- Organized code structure (MVC)
- Basic error handling
- Fast and lightweight
+![image](https://github.com/user-attachments/assets/8758c5c5-f70e-41bc-9c2c-e4b65763f278)
 
-###file structure
-/task-manager-api
-/controllers    # Handles request logic
-/models         # Defines data structure (future enhancement)
-/routes         # Defines API endpoints
-server.js       # Entry point of the app
-package.json    # Project metadata & dependencies
-README.md       # Project documentation
 
 #### Installation
 1. git clone
